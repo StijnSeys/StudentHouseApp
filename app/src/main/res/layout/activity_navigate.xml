@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NavigateActivity">
+
+    <TextView
+        android:id="@+id/tvWelkom"
+        android:layout_width="369dp"
+        android:layout_height="53dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="21dp"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txtMaps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imgGoogleMaps"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:text="Vind een kot op google Maps"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imgGoogleMaps"
+        android:layout_width="178dp"
+        android:layout_height="164dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="105dp"
+        app:srcCompat="@drawable/maps3" />
+
+    <ImageView
+        android:id="@+id/imgKotLijst"
+        android:layout_width="182dp"
+        android:layout_height="154dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginBottom="109dp"
+        app:srcCompat="@drawable/clipboard" />
+
+    <TextView
+        android:id="@+id/textLijst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="83dp"
+        android:singleLine="true"
+        android:text="Bekijk de volledige Kortrijkse kotlijst"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+</RelativeLayout>

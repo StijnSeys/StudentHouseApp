@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registratie Scherm" />
+
+    <EditText
+        android:id="@+id/etVoornaam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:hint="Voornaam"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAchternaam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="105dp"
+        android:ems="10"
+        android:hint="Achternaam"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="155dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etPass1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="214dp"
+        android:ems="10"
+        android:hint="pass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etPass2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="267dp"
+        android:ems="10"
+        android:hint="herhaal pass"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/etTelefoon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="235dp"
+        android:ems="10"
+        android:hint="Telefoon"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/btnBevestig"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="105dp"
+        android:text="BEVESTIGEN" />
+
+    <EditText
+        android:id="@+id/etRichting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="177dp"
+        android:ems="10"
+        android:hint="StudieRichting optioneel"
+        android:inputType="textPersonName" />
+
+</RelativeLayout>

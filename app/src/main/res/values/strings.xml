@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">KortrijkseKotApp</string>
+    <string name="LoginMail">Email</string>
+    <string name="pass">Password</string>
+    <string name="Aanmelden">Aanmelden</string>
+    <string name="Registreren">Registreren</string>
+    <string name="login">Login gegevens : </string>
+    <string name="main">VIND EEN KOT IN: </string>
+    <string name="male">Man</string>
+    <string name="female">Vrouw</string>
+    <string name="gender">Geslacht?</string>
+</resources>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".InfoActivity" >
+
+    <LinearLayout
+        android:layout_width="299dp"
+        android:layout_height="503dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvInfoAdres"
+            android:layout_width="match_parent"
+            android:layout_height="134dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/tvInfoKamers"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/tvInfoBezet"
+            android:layout_width="match_parent"
+            android:layout_height="52dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp" />
+
+        <TextView
+            android:id="@+id/tvInfoStudenten"
+            android:layout_width="match_parent"
+            android:layout_height="165dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp" />
+
+        <RatingBar
+            android:id="@+id/rtbInfoKotRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+
+            />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnReserveer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginBottom="13dp"
+        android:text="Reserveer hier een kot" />
+
+    <Button
+        android:id="@+id/btnInfoTerug"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="13dp"
+        android:text="Terug naar lijst" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="382dp"
+        android:layout_height="29dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="23dp"
+        android:text="TextView" />
+</RelativeLayout>
